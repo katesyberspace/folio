@@ -27,7 +27,7 @@
 .menu {
   display: flex;
   flex-direction: column;
-  background: darkorchid;
+  background: #bf00ff	;
   width: fit-content;
   position: absolute;
   top: 80%;
@@ -43,7 +43,7 @@
 .menu a:hover {
   font-style: italic;
   background-color: aquamarine;
-  color: darkorchid;
+  color: #bf00ff	;
 }
 
 a {

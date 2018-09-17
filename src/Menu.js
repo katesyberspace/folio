@@ -43,7 +43,7 @@ class Menu extends React.Component {
     return(
       <div className="menu-wrapper">
         <button  onClick={this.showMenu} className={this.state.buttonClass}>
-          <i  class="fas fa-chevron-down"></i>
+          <i  className="fas fa-chevron-down"></i>
         </button>
       
         {/* if showMeny is true, show the menu items */}
