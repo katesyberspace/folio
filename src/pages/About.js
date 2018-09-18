@@ -22,17 +22,17 @@ export default function About (){
         <p>{tab}previousLives: [</p>
         <p>{tab}{tab}<span className="red">'bank teller','accountant',</span></p>
         <p>{tab}{tab}<span className="red">'receptionist', 'admissions',</span></p>        
-        <p>{tab}{tab}<span className="red">'sales reporting, quality assurance'</span></p>
-        <p>{tab}]</p>
+        <p>{tab}{tab}<span className="red">'sales reporting', 'quality assurance'</span></p>
+        <p>{tab}],</p>
         <p>{tab}values: [</p>
         <p>{tab}{tab}<span className="red">'creativity','learning', 'family',</span></p>
         <p>{tab}{tab}<span className="red">'spreading happiness'</span></p>
-        <p>{tab}]</p>
+        <p>{tab}],</p>
         <p>{tab}hobbies: [</p>
         <p>{tab}{tab}<span className="red">'ukulele','drone photography',</span></p>
         <p>{tab}{tab}<span className="red">'walking/hiking', 'board games',</span></p>
         <p>{tab}{tab}<span className="red">'studying Japanese'</span></p>
-        <p>{tab}]</p>
+        <p>{tab}],</p>
         <p>{tab}favouriteBook: <span className="red">'Dune by Frank Herbert'</span>,</p>
         <p>{tab}MBTI: <a href="https://www.16personalities.com/isfp-personality" rel="noopener noreferrer" target="_blank">'ISFP'</a>,</p>
         <p>{tab}lovesCats: <span className="blue">true</span>,</p>

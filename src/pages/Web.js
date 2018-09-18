@@ -20,7 +20,7 @@ export default function Web() {
   const billmates = {
     name: 'billmates',
     background: 'url(https://i.imgur.com/RypgMyd.png)',
-    description: 'A full stack, responsive, database-backed application built with Ruby.  The app offers an easy way for friends ot split expenses for outings such as weekend trips away.  Users can create bills or join existing bhills using a unique bill join code.',
+    description: 'A full stack, responsive, database-backed application built with Ruby.  The app offers an easy way for friends ot split expenses for outings such as weekend trips away.  Users can create bills or join existing bills using a unique bill join code.',
     github: 'https://github.com/katesyberspace/billmates',
     demo: 'https://billmates.herokuapp.com'
   }
@@ -28,7 +28,7 @@ export default function Web() {
   const letsQuiz = {
     name: "Let's Quiz!",
     background: 'url(https://i.imgur.com/nVCy3ZY.png)',
-    description: 'This app was my first experience working with a group of developers.  Aside from learning all about git branches and version controlling, our group utilised server sent events to simulate a real-time two player trivia game.',
+    description: 'This app was my first experience working within a group of developers.  Aside from learning all about git branches and version controlling, our group utilised server sent events to simulate a real-time two player trivia game.',
     github: 'https://github.com/katesyberspace/the_quiz',
     demo: 'http://letsquiz.herokuapp.com/'
   }
