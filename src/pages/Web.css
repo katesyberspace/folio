@@ -1,5 +1,14 @@
-.web-container {
+.web-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media only screen  and (min-width : 700px) {
+  .web-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
 }

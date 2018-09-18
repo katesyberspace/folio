@@ -29,7 +29,7 @@ class Landing extends React.Component {
 
 
   componentDidMount(){
-    this.interval = setInterval(()=> this.getRandomInt(0,5), 2000)
+    this.interval = setInterval(()=> this.getRandomInt(0,5), 2500)
   }
 
 
@@ -42,7 +42,7 @@ class Landing extends React.Component {
           <h1>I'm a <span>{myDescriptions[this.state.descriptionIdx]}</span>.</h1>
         </div>
         <div className="skills">
-          <section className="html"><span className="html-span">html</span></section>
+          <section className="html">html</section>
           <section className="css">css</section>
           <section className="ruby">ruby</section>
           <section className="js">js</section>
