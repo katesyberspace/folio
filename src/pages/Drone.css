@@ -17,3 +17,8 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.insta-card {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
