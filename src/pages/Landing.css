@@ -1,4 +1,4 @@
-.landing-grid {
+/* .landing-grid {
   display: grid;
   grid-template-areas:  ' welcome welcome welcome   '
                         ' welcome welcome welcome   '
@@ -6,28 +6,38 @@
                         ' skills skills skills  ';
  overflow: hidden;                       
 }
-                      
+                       */
+
+
+.landing-grid {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}                  
 
 .welcome h1 {
   font-weight: 400;
   margin: 0;
-  font-size: 3em;
+  font-size: 2.8em;
 }
 
 .welcome {
-  grid-area: welcome;
+  /* grid-area: welcome; */
   margin: 10%;
-  height: 30vh;
+  /* height: 70%; */
+  position: relative;
 }
 
 
 
 .skills {
-  grid-area: skills;
+  /* grid-area: skills; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 8%;
+  position: fixed;
+  top: 50vh;
 ;
 }
 
@@ -107,6 +117,7 @@
   .welcome {
     margin: 5% 20%;
     height: 26vh;
+    position: absolute;
   }
 
   
@@ -121,13 +132,15 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    position: fixed;
+    top: 54%;
   }
 
   .skills section {
-    width: 180px;
-    height: 180px;
+    width: 6em;
+    height: 6em;
     text-align: center;
-    line-height: 180px;;
+    line-height: 6em;;
     margin: 10px;
     padding: 0;
     font-size: 24px;
