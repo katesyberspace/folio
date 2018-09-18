@@ -2,7 +2,7 @@ import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Web from './Web'
-
+import Drone from './Drone'
 
 class Projects extends React.Component {
 
@@ -21,7 +21,7 @@ class Projects extends React.Component {
             <Web/>
           </TabPanel>
           <TabPanel>
-            <h2>drone photography</h2>
+            <Drone />
           </TabPanel>
           <TabPanel>
             <h2>art</h2>
