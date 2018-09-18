@@ -5,7 +5,7 @@ const myDescriptions = [
   'full-stack web developer',
   'foster-carer for rescue cats',
   'ukulele strummer',
-  'Japanese language enthusiast',
+  'Japanese speaker',
   'drone photography hobbyist',
 ]
 
@@ -22,7 +22,6 @@ class Landing extends React.Component {
     min = Math.ceil(min);
     max = Math.floor(max);
     const random = Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
-    console.log(random)
     this.setState({
       descriptionIdx: random
     })
