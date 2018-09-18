@@ -1,5 +1,4 @@
 import React from 'react'
-import InstagramEmbed from 'react-instagram-embed'
 import './Drone.css'
 import Insta from './Insta'
 
