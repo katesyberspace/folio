@@ -22,7 +22,7 @@ export default function About (){
         <p>{tab}previousLives: [</p>
         <p>{tab}{tab}<span className="red">'bank teller','accountant',</span></p>
         <p>{tab}{tab}<span className="red">'receptionist', 'admissions',</span></p>        
-        <p>{tab}{tab}<span className="red">'sales reportings, quality assurance'</span></p>
+        <p>{tab}{tab}<span className="red">'sales reporting, quality assurance'</span></p>
         <p>{tab}]</p>
         <p>{tab}values: [</p>
         <p>{tab}{tab}<span className="red">'creativity','learning', 'family',</span></p>
