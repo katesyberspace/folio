@@ -16,7 +16,7 @@ export default function About (){
         <p>{tab}from: 
           <span className="red">'San Francisco'</span>,</p>
         <p>{tab}livesIn: <span className="red">'Melbourne'</span>,</p>
-        <p>{tab}codingSince: '<span className="red">18th June 2018'</span>,</p>
+        <p>{tab}codingSince: <span className="red">'18th June 2018'</span>,</p>
         <p>{tab}favouriteLanguage: <span className="red">'Javascript'</span>,</p>
         <p>{tab}currentlyLearning: <span className="red">'React'</span>,</p>
         <p>{tab}previousLives: [</p>
