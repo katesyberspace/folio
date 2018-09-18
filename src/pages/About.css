@@ -1,8 +1,33 @@
 .kateObject {
   margin: 0 auto;
   padding: 10px;
+  color: #676565;
 }
 
 .kateObject a {
-  color: blue;
+  color: #80bfff;
+}
+
+.blue {
+  color: #80dfff;
+}
+
+.green {
+  color: #80ff9f;
+}
+
+.red {
+  color: #ff8080;
+}
+
+@media only screen  and (min-width : 700px) {
+
+  .kateObject {
+    margin: 0 20%;
+    font-size: 20px;
+    background: #676565;
+    color: whitesmoke;
+  }
+
+
 }

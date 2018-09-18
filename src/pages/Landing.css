@@ -24,11 +24,10 @@
 
 .skills {
   grid-area: skills;
-  display: grid;
-  grid-template-areas:  'html css ruby'
-                        'js node react';
-  justify-content: center;
-  margin: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 8%;
 ;
 }
 
@@ -119,8 +118,9 @@
 
   .skills {
     margin: 2% 20%;
-    grid-template-areas:  'html css ruby js node react'
-  
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
   }
 
   .skills section {

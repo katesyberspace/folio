@@ -22,3 +22,27 @@
   margin: 0 auto;
   margin-bottom: 15px;
 }
+
+
+@media only screen  and (min-width : 700px) {
+  .drone-wrapper {
+    margin: 0 20%;
+  }
+
+  .drone-intro {
+    padding: 10px;
+    font-size: 1.5em;
+  }
+  
+  .insta-wrapper {
+    margin: 0 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .insta-card {
+    margin: 0 5px;
+    margin-bottom: 15px;
+  }
+}

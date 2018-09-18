@@ -20,19 +20,22 @@
 
 
 .info {
+  box-sizing: border-box;
   width: 80%;
   text-align: center;
   margin: 0 auto;
   margin-top: 15px;
-  background: #00bfff;
+  background: #80bfff;
 }
 
 .info img {
+  box-sizing: border-box;
   width: 150px;
   border-radius: 50%;
   margin: 5px;
   margin-top: 10px;
-  transform: rotate(0)
+  transform: rotate(0);
+  transition: all 1s ease-in-out;
 }
 
 .info img:hover {
@@ -40,9 +43,10 @@
 }
 
 .contact-links {
+  box-sizing: border-box;
   text-align: left;
   margin: 0 auto;
-  background: aquamarine;
+  background: #ff9f80;
   padding: 10px;
   width: 80%;
 }
@@ -55,26 +59,55 @@
   font-size: 30px;
   width: 20%;
   padding-left: 5px;
+  color: whitesmoke;
 
 }
 
 
 .contact-links a {
-  color: black;
+  color: whitesmoke;
   font-size: 20px;
   width: 70%;
   line-height: 30px;
   transition: .8s cubic-bezier(0.075, 0.82, 0.165, 1);
+  padding: 0 5px;
 }
 
 .contact-links a:hover {
-  background: whitesmoke;
+  background: #80bfff;
 }
 
 .contact-links a:active {
-  background: whitesmoke;
+  background: black;
 }
 
 .contact-links a:visited {
-  color: #00bfff;
+  color: black;
 }
+
+
+@media only screen  and (min-width : 700px) {
+
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 20%;
+  
+  }
+
+  .info, .contact-links {
+    height: 300px;
+  }
+
+  .info {
+    margin-top: 0;
+  }
+  .info img {
+    margin-top: 10%;
+  }
+
+  .contact-links {
+    padding-top: 5%;
+  }
+
+} 
