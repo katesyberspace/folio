@@ -3,6 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Web from './Web'
 import Drone from './Drone'
+import Art from './Art'
 
 class Projects extends React.Component {
 
@@ -20,11 +21,13 @@ class Projects extends React.Component {
           <TabPanel>
             <Web/>
           </TabPanel>
+
           <TabPanel>
             <Drone />
           </TabPanel>
+
           <TabPanel>
-            <h2>art</h2>
+            <Art />
           </TabPanel>
 
         </Tabs>
