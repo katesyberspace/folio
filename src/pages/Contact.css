@@ -78,11 +78,11 @@
 }
 
 .contact-links a:active {
-  background: black;
+  background: #676565;
 }
 
 .contact-links a:visited {
-  color: black;
+  color: #676565;
 }
 
 
