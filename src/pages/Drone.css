@@ -1,0 +1,19 @@
+.drone-wrapper {
+  text-align: center;
+}
+
+.drone-intro {
+  padding: 3px;
+  background: #00bfff;
+  margin-bottom: 20px;
+}
+
+.drone-intro p {
+  color: whitesmoke;
+}
+
+.insta-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
