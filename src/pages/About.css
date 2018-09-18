@@ -1,4 +1,8 @@
 .kateObject {
   margin: 0 auto;
-  padding: 1vw;
+  padding: 10px;
+}
+
+.kateObject a {
+  color: blue;
 }

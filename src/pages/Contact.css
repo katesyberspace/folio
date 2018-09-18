@@ -1,0 +1,80 @@
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.contact-wrapper h2 {
+  font-weight: 600;
+  color: whitesmoke;
+  margin: 0;
+}
+
+.contact-wrapper h3 {
+  margin: 5px 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+
+.info {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  background: #00bfff;
+}
+
+.info img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 5px;
+  margin-top: 10px;
+  transform: rotate(0)
+}
+
+.info img:hover {
+  transform: rotate(360deg)
+}
+
+.contact-links {
+  text-align: left;
+  margin: 0 auto;
+  background: aquamarine;
+  padding: 10px;
+  width: 80%;
+}
+
+.contact-links p {
+  display: flex;
+  justify-content: center;
+}
+.contact-links i {
+  font-size: 30px;
+  width: 20%;
+  padding-left: 5px;
+
+}
+
+
+.contact-links a {
+  color: black;
+  font-size: 20px;
+  width: 70%;
+  line-height: 30px;
+  transition: .8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.contact-links a:hover {
+  background: whitesmoke;
+}
+
+.contact-links a:active {
+  background: whitesmoke;
+}
+
+.contact-links a:visited {
+  color: #00bfff;
+}
