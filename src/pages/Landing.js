@@ -38,7 +38,7 @@ class Landing extends React.Component {
     return (
       <div className="landing-grid">
         <div className="welcome">
-          <h1>Hi, I'm Kate</h1>
+          <h1>Hi, I'm Kate.</h1>
           <h1>I'm a <span>{myDescriptions[this.state.descriptionIdx]}</span>.</h1>
         </div>
         <div className="skills">
